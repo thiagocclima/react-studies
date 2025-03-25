@@ -1,7 +1,7 @@
 export default function Main() {
     return (
         <main>
-            <h1>Main goes here</h1>
+            <h1>Fun facts about React</h1>
             <ul className="facts-list">
                 <li>Was first released in 2013</li>
                 <li>Was originally created by Jordan Walke</li>
