@@ -2,9 +2,37 @@ body {
   padding: 20px;
   font-family: Arial, Helvetica, sans-serif;
   background: #27292c;
-  color: white;
+  color: rgba(255, 255, 255, 0.431);
 }
 
 h1 {
   margin-top: 30px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list-item {
+  margin-right: 10px;
+  font-size: 1.1rem;
+}
+
+.nav-logo {
+  width: 55px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+  width: 100%;
+  background-color: black;
 }
